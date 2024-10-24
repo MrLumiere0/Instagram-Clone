@@ -1,0 +1,151 @@
+.landingBody {
+    margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+}
+
+.land-container {
+    height: fit-content;
+    width: fit-content;
+    padding: 3rem
+}
+#insta{
+    text-align: center;
+    font-family: "Playwrite+GB+S", serif;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    width: 200px;
+}
+
+
+.input{
+    height: 2rem;
+    width: auto;
+    padding-left: .5rem;
+}
+#user {
+    
+}
+
+
+#landingbut{
+    height: 2rem;
+    width: auto;
+    margin-top: .5rem;
+    background-color: #4cb6f9 ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: .5rem;
+}
+
+.feed-body {
+margin: 0;
+background-color: black;
+width: 100%;
+height: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+.topNav{
+ height: 5rem;
+ color: white;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ position: sticky;
+ align-items: center;
+}
+#feedInsta {
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.icons{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.material-symbols-outlined{
+color: white;
+margin-right: 3rem;
+}
+
+.feed{
+    /* border: 3px solid grey ; */
+    /* height: 100vh; */
+}
+
+.post {
+    height: 100%;
+    /* border: 5px solid white ; */
+}
+
+.userPost{
+    width: 100%;
+}
+
+
+.userInfo{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height:10rem;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid rgb(43, 43, 43);
+    padding-left: 3rem;
+
+
+}
+
+ .userInfoMain {
+        display: flex;
+        height: 100%;
+    }
+
+
+.postUser {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+#userPhoto{
+    scale: .65;
+    border-radius: 50%;
+    margin-right: 5rem;
+}
+
+.postSong{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.Options{
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    height: 100%;
+}
+
+#opts{
+    font-size: 4rem;
+    height: fit-content;
+}
+
+

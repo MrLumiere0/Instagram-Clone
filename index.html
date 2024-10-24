@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
     <title>Multigram</title>
   </head>
-  <body>
-    <h1>Landing Page</h1>
+  <body class="landingBody">
+    <div class="land-container">
+      <h1 id="insta">Instagram</h1>
+      <div id="login">
+        <input class="input" id="user" name = "username" type="text" required minlength="1" placeholder="Phone number, username or e....">
+        <input class="input" id="pass" name = "password" type="text" required min="1" placeholder="Password">
+        <button type="button" id="landingbut"> Log in</button>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
